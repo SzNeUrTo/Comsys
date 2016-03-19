@@ -38,26 +38,6 @@ SC_MODULE(reg4) {
         // }
     }
 
-    // void run() {
-    //     while (true) {
-    //         wait();
-    //         ready.write(false);
-    //         p1();
-    //         p2();
-    //         // while (ready.read() != true) {
-    //             ready_dff[0] = ready_dff1.read();
-    //             ready_dff[1] = ready_dff2.read();
-    //             ready_dff[2] = ready_dff3.read();
-    //             ready_dff[3] = ready_dff4.read();
-
-    //             ready.write(ready_dff.and_reduce());
-    //             // wait();
-    //             cout << "ready = " << ready.read() << endl;
-    //         // }
-    //         wait();    
-    //     }
-        
-    // }
  
     SC_CTOR(reg4) : dff1("dff1"), dff2("dff2"), dff3("dff3"), dff4("dff4") {
 
@@ -67,16 +47,6 @@ SC_MODULE(reg4) {
     SC_METHOD(p2);
     // sensitive << dout << clk;
     sensitive << clk.pos();
-
-
-    // SC_CTHREAD(p1, clk);
-    // SC_CTHREAD(p2, clk);
-
-    
-    // SC_METHOD(p3);
-    // sensitive << enable, rw, clr;
-
-    // SC_CTHREAD(run, clk);
 
     d=0; q=0;
 

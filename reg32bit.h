@@ -121,6 +121,12 @@ SC_MODULE(reg32) {
     reg16_2.rw(rw);
     reg16_2.clr(clr);
 
+    reg16_1.addr(addr);
+    reg16_1.addr(addr);
+
+    reg16_2.addr(_index);
+    reg16_2.addr(_index);
+
     // reg16_3.enable(enable);
     // reg16_3.rw(rw);
     // reg16_3.clr(clr);
