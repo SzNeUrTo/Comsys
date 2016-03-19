@@ -20,14 +20,16 @@ SC_MODULE(mips_reg) {
 
     reg16* R[N_MODULE];
 
+
     void pc1() {
-        // cout << _dout[addr.read()] << endl;
         dout.write(_dout[addr.read()]);
     }
 
     SC_CTOR(mips_reg) {     
         SC_METHOD(pc1);                     
-        sensitive << enable << rw << clr << din << addr << reset;
+        sensitive << clk.pos(); //enable << rw << clr << addr << reset << din;
+        // SC_METHOD(pcInput);
+        // sensitive << din;
 
         for (int i = 0; i < N_MODULE; i++) {
             char name_reg[100] = "reg_";
@@ -37,7 +39,7 @@ SC_MODULE(mips_reg) {
             R[i] = new reg16(name_reg);
             R[i] -> clk(clk);
             R[i] -> reset(reset);
-            R[i] -> din(_din[i]);
+            R[i] -> din(din);
             R[i] -> dout(_dout[i]);
             R[i] -> enable(enable);
             R[i] -> rw(rw);
