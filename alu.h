@@ -10,38 +10,6 @@ SC_MODULE(alu) {
 	bool zero, overflow;
 	sc_uint<N> res;
 
-/*
-    bool co0, co1, co2, co3;
-    sc_uint<4> sum_s;
-
-    bool fulladder(bool a, bool b, bool cif, bool& cof) {
-		bool sumr;
-		sumr =(a ^ b) ^ cif;
-		cof=(a & b) | ((a ^ b) & cif);
-		return sumr;
-    }
-
-    void p1() {
-		sum_s[0]=fulladder(ain.read()[0],bin.read()[0],ci.read(), co0);
-		sum_s[1]=fulladder(ain.read()[1],bin.read()[1],co0,co1);
-		sum_s[2]=fulladder(ain.read()[2],bin.read()[2],co1,co2);
-		sum_s[3]=fulladder(ain.read()[3],bin.read()[3],co2,co3);
-
-		sum.write(sum_s);
-		co.write(co3);
-
-		zflag = (!(sum_s[0] | sum_s[1] | sum_s[2] | sum_s[3] | co3));
-		oflag = (co3);
-
-		if (zflag.read()==true) {
-			cout << "zero value" << endl;
-		}
-		if (oflag.read() == true){
-			cout << "overflow value" << endl;
-		}
-		cout << endl;
-    }
-	*/
 	sc_int<N> add(sc_int<N> a, sc_int<N> b) {
 		return a + b;
 	}

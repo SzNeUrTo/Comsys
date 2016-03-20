@@ -52,6 +52,85 @@ int sc_main(int argc, char* argv[]) {
 
     sc_start(SC_ZERO_TIME);
 
+	clr = 0;
+    sc_start(100 , SC_NS);
+	clr = 1;
+    sc_start(100 , SC_NS);
+
+	// write 0 at $8 #i
+    enable =0, rw=1, dst_addr = 8, write_data = 0;
+    sc_start(100 , SC_NS);
+    enable =1;
+    sc_start(100 , SC_NS);
+
+	// write 0 at $9 #sum
+    enable =0, rw=1, dst_addr = 9, write_data = 0;
+    sc_start(100 , SC_NS);
+    enable =1;
+    sc_start(100 , SC_NS);
+
+	// write 100 at $10 #N
+    enable =0, rw=1, dst_addr = 10, write_data = 100;
+    sc_start(100 , SC_NS);
+    enable =1;
+    sc_start(100 , SC_NS);
+
+	// write 1 at $11
+    enable =0, rw=1, dst_addr = 11, write_data = 1;
+    sc_start(100 , SC_NS);
+    enable =1;
+    sc_start(100 , SC_NS);
+
+	//read $8, $10
+    enable=0, rw=0, src1_addr = 8, src2_addr = 10;
+	opcode = 1;
+    sc_start(100 , SC_NS);
+	enable=1;
+    sc_start(100 , SC_NS);
+
+	// $8 < $10
+	while(!zflag.read()) {
+		//read $9, $8
+		enable=0, rw=0, src1_addr = 9, src2_addr = 8;
+		opcode = 0;
+		sc_start(100 , SC_NS);
+		enable=1;
+		sc_start(100 , SC_NS);
+
+		// write result at $9
+		enable =0, rw=1, dst_addr = 9, write_data = result.read();
+		sc_start(100 , SC_NS);
+		enable =1;
+		sc_start(100 , SC_NS);
+
+		//read $8, $11
+		enable =0, rw=0, src1_addr = 8, src2_addr = 11;
+		opcode = 0;
+		sc_start(100 , SC_NS);
+		enable=1;
+		sc_start(100 , SC_NS);
+
+		// write result at $8
+		enable =0, rw=1, dst_addr = 8, write_data = result.read();
+		sc_start(100 , SC_NS);
+		enable =1;
+		sc_start(100 , SC_NS);
+
+		//read $8, $10
+		enable=0, rw=0, src1_addr = 8, src2_addr = 10;
+		opcode = 1;
+		sc_start(100 , SC_NS);
+		enable=1;
+		sc_start(100 , SC_NS);
+	}
+	//read $8, $9
+	enable=0, rw=0, src1_addr = 8, src2_addr = 9;
+	opcode = 0;
+	sc_start(100 , SC_NS);
+	enable=1;
+	sc_start(100 , SC_NS);
+
+/*
     enable =0, rw=1, dst_addr = 1, write_data = 27, clr=1;
     sc_start(100 , SC_NS);
     enable =1;
@@ -65,7 +144,7 @@ int sc_main(int argc, char* argv[]) {
     sc_start(100 , SC_NS);
     rw=0; src1_addr = 1, src2_addr = 2;
     sc_start(100 , SC_NS);
-/*
+
     enable =0, rw=1;
     sc_start(100 , SC_NS);
     enable=1 , addr = 5, din = 3;
