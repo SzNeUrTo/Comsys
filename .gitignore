@@ -1,4 +1,12 @@
+<<<<<<< HEAD
 *.zip
 *.vcd
 *.png
 *.o
+=======
+*.vcd
+*.o
+*.zip
+*.exe
+Makefile
+>>>>>>> fdc6669
