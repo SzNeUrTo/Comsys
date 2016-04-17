@@ -7,7 +7,7 @@ python checker_sort.py mergesort.cpp
 ```
 
 ### Change Value
-change value (N, MAX, MIN)
+change value (N, MAX, MIN) in mergesort.cpp
 ```cpp
 #define N 65536
 #define MAX 255
