@@ -16,11 +16,11 @@ change value (N, MAX, MIN) in mergesort.cpp
 
 ## How to use "cache-sim" command line ?
 
-For cache size: 32KB, line size: 128B, associativity: 8 ways <br>
+For cache size: 32KB, line size: 128B, associativity: 8 ways, tracefile name: "log" <br>
 You can run
 
 ```bash
 $./cache-sim log 32 128 8
 ```
-and this command use for execute file name: "sort" and tool name: "dcach.so" <br>
+and this command use for execute file name: "sort" and tool name: "dcache.so" <br>
 run in path: "/pin-3.0-76991-gcc-linux/source/tools/SimpleExamples"
