@@ -1,0 +1,7 @@
+#!/bin/bash
+
+rm sc_main.o
+rm output.txt
+rm run.exe
+rm trace.vcd
+rm a.out

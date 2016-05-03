@@ -1,0 +1,1038 @@
+
+
+Info: (I702) default timescale unit used for tracing: 1 ps (trace.vcd)
+outputcollect.h --> AVG = 130 [index = 0] | checker.h [avg.read() = 130 <--> avgDataResult = 130] --> Correct
+
+outputcollect.h --> AVG = 161 [index = 1] | checker.h [avg.read() = 161 <--> avgDataResult = 162] --> InCorrect
+
+outputcollect.h --> AVG = 150 [index = 2] | checker.h [avg.read() = 150 <--> avgDataResult = 151] --> InCorrect
+
+outputcollect.h --> AVG = 197 [index = 3] | checker.h [avg.read() = 197 <--> avgDataResult = 198] --> InCorrect
+
+outputcollect.h --> AVG = 162 [index = 4] | checker.h [avg.read() = 162 <--> avgDataResult = 162] --> Correct
+
+outputcollect.h --> AVG = 157 [index = 5] | checker.h [avg.read() = 157 <--> avgDataResult = 158] --> InCorrect
+
+outputcollect.h --> AVG = 88 [index = 6] | checker.h [avg.read() = 88 <--> avgDataResult = 88] --> Correct
+
+outputcollect.h --> AVG = 141 [index = 7] | checker.h [avg.read() = 141 <--> avgDataResult = 141] --> Correct
+
+outputcollect.h --> AVG = 87 [index = 8] | checker.h [avg.read() = 87 <--> avgDataResult = 87] --> Correct
+
+outputcollect.h --> AVG = 97 [index = 9] | checker.h [avg.read() = 97 <--> avgDataResult = 98] --> InCorrect
+
+outputcollect.h --> AVG = 39 [index = 10] | checker.h [avg.read() = 39 <--> avgDataResult = 40] --> InCorrect
+
+outputcollect.h --> AVG = 156 [index = 11] | checker.h [avg.read() = 156 <--> avgDataResult = 157] --> InCorrect
+
+outputcollect.h --> AVG = 188 [index = 12] | checker.h [avg.read() = 188 <--> avgDataResult = 188] --> Correct
+
+outputcollect.h --> AVG = 109 [index = 13] | checker.h [avg.read() = 109 <--> avgDataResult = 109] --> Correct
+
+outputcollect.h --> AVG = 81 [index = 14] | checker.h [avg.read() = 81 <--> avgDataResult = 81] --> Correct
+
+outputcollect.h --> AVG = 112 [index = 15] | checker.h [avg.read() = 112 <--> avgDataResult = 112] --> Correct
+
+outputcollect.h --> AVG = 142 [index = 16] | checker.h [avg.read() = 142 <--> avgDataResult = 142] --> Correct
+
+outputcollect.h --> AVG = 161 [index = 17] | checker.h [avg.read() = 161 <--> avgDataResult = 161] --> Correct
+
+outputcollect.h --> AVG = 85 [index = 18] | checker.h [avg.read() = 85 <--> avgDataResult = 85] --> Correct
+
+outputcollect.h --> AVG = 177 [index = 19] | checker.h [avg.read() = 177 <--> avgDataResult = 178] --> InCorrect
+
+outputcollect.h --> AVG = 83 [index = 20] | checker.h [avg.read() = 83 <--> avgDataResult = 83] --> Correct
+
+outputcollect.h --> AVG = 180 [index = 21] | checker.h [avg.read() = 180 <--> avgDataResult = 180] --> Correct
+
+outputcollect.h --> AVG = 92 [index = 22] | checker.h [avg.read() = 92 <--> avgDataResult = 92] --> Correct
+
+outputcollect.h --> AVG = 142 [index = 23] | checker.h [avg.read() = 142 <--> avgDataResult = 143] --> InCorrect
+
+outputcollect.h --> AVG = 87 [index = 24] | checker.h [avg.read() = 87 <--> avgDataResult = 87] --> Correct
+
+outputcollect.h --> AVG = 182 [index = 25] | checker.h [avg.read() = 182 <--> avgDataResult = 182] --> Correct
+
+outputcollect.h --> AVG = 182 [index = 26] | checker.h [avg.read() = 182 <--> avgDataResult = 183] --> InCorrect
+
+outputcollect.h --> AVG = 84 [index = 27] | checker.h [avg.read() = 84 <--> avgDataResult = 84] --> Correct
+
+outputcollect.h --> AVG = 155 [index = 28] | checker.h [avg.read() = 155 <--> avgDataResult = 155] --> Correct
+
+outputcollect.h --> AVG = 166 [index = 29] | checker.h [avg.read() = 166 <--> avgDataResult = 166] --> Correct
+
+outputcollect.h --> AVG = 121 [index = 30] | checker.h [avg.read() = 121 <--> avgDataResult = 121] --> Correct
+
+outputcollect.h --> AVG = 208 [index = 31] | checker.h [avg.read() = 208 <--> avgDataResult = 208] --> Correct
+
+outputcollect.h --> AVG = 122 [index = 32] | checker.h [avg.read() = 122 <--> avgDataResult = 123] --> InCorrect
+
+outputcollect.h --> AVG = 170 [index = 33] | checker.h [avg.read() = 170 <--> avgDataResult = 170] --> Correct
+
+outputcollect.h --> AVG = 156 [index = 34] | checker.h [avg.read() = 156 <--> avgDataResult = 156] --> Correct
+
+outputcollect.h --> AVG = 108 [index = 35] | checker.h [avg.read() = 108 <--> avgDataResult = 108] --> Correct
+
+outputcollect.h --> AVG = 66 [index = 36] | checker.h [avg.read() = 66 <--> avgDataResult = 66] --> Correct
+
+outputcollect.h --> AVG = 112 [index = 37] | checker.h [avg.read() = 112 <--> avgDataResult = 112] --> Correct
+
+outputcollect.h --> AVG = 105 [index = 38] | checker.h [avg.read() = 105 <--> avgDataResult = 106] --> InCorrect
+
+outputcollect.h --> AVG = 97 [index = 39] | checker.h [avg.read() = 97 <--> avgDataResult = 97] --> Correct
+
+outputcollect.h --> AVG = 76 [index = 40] | checker.h [avg.read() = 76 <--> avgDataResult = 77] --> InCorrect
+
+outputcollect.h --> AVG = 101 [index = 41] | checker.h [avg.read() = 101 <--> avgDataResult = 101] --> Correct
+
+outputcollect.h --> AVG = 199 [index = 42] | checker.h [avg.read() = 199 <--> avgDataResult = 199] --> Correct
+
+outputcollect.h --> AVG = 69 [index = 43] | checker.h [avg.read() = 69 <--> avgDataResult = 69] --> Correct
+
+outputcollect.h --> AVG = 140 [index = 44] | checker.h [avg.read() = 140 <--> avgDataResult = 141] --> InCorrect
+
+outputcollect.h --> AVG = 64 [index = 45] | checker.h [avg.read() = 64 <--> avgDataResult = 64] --> Correct
+
+outputcollect.h --> AVG = 89 [index = 46] | checker.h [avg.read() = 89 <--> avgDataResult = 89] --> Correct
+
+outputcollect.h --> AVG = 177 [index = 47] | checker.h [avg.read() = 177 <--> avgDataResult = 178] --> InCorrect
+
+outputcollect.h --> AVG = 72 [index = 48] | checker.h [avg.read() = 72 <--> avgDataResult = 72] --> Correct
+
+outputcollect.h --> AVG = 112 [index = 49] | checker.h [avg.read() = 112 <--> avgDataResult = 113] --> InCorrect
+
+outputcollect.h --> AVG = 114 [index = 50] | checker.h [avg.read() = 114 <--> avgDataResult = 114] --> Correct
+
+outputcollect.h --> AVG = 173 [index = 51] | checker.h [avg.read() = 173 <--> avgDataResult = 173] --> Correct
+
+outputcollect.h --> AVG = 120 [index = 52] | checker.h [avg.read() = 120 <--> avgDataResult = 120] --> Correct
+
+outputcollect.h --> AVG = 77 [index = 53] | checker.h [avg.read() = 77 <--> avgDataResult = 78] --> InCorrect
+
+outputcollect.h --> AVG = 120 [index = 54] | checker.h [avg.read() = 120 <--> avgDataResult = 120] --> Correct
+
+outputcollect.h --> AVG = 141 [index = 55] | checker.h [avg.read() = 141 <--> avgDataResult = 142] --> InCorrect
+
+outputcollect.h --> AVG = 95 [index = 56] | checker.h [avg.read() = 95 <--> avgDataResult = 96] --> InCorrect
+
+outputcollect.h --> AVG = 110 [index = 57] | checker.h [avg.read() = 110 <--> avgDataResult = 111] --> InCorrect
+
+outputcollect.h --> AVG = 149 [index = 58] | checker.h [avg.read() = 149 <--> avgDataResult = 150] --> InCorrect
+
+outputcollect.h --> AVG = 91 [index = 59] | checker.h [avg.read() = 91 <--> avgDataResult = 92] --> InCorrect
+
+outputcollect.h --> AVG = 139 [index = 60] | checker.h [avg.read() = 139 <--> avgDataResult = 139] --> Correct
+
+outputcollect.h --> AVG = 213 [index = 61] | checker.h [avg.read() = 213 <--> avgDataResult = 213] --> Correct
+
+outputcollect.h --> AVG = 55 [index = 62] | checker.h [avg.read() = 55 <--> avgDataResult = 56] --> InCorrect
+
+outputcollect.h --> AVG = 157 [index = 63] | checker.h [avg.read() = 157 <--> avgDataResult = 158] --> InCorrect
+
+outputcollect.h --> AVG = 127 [index = 64] | checker.h [avg.read() = 127 <--> avgDataResult = 128] --> InCorrect
+
+outputcollect.h --> AVG = 83 [index = 65] | checker.h [avg.read() = 83 <--> avgDataResult = 84] --> InCorrect
+
+outputcollect.h --> AVG = 141 [index = 66] | checker.h [avg.read() = 141 <--> avgDataResult = 141] --> Correct
+
+outputcollect.h --> AVG = 68 [index = 67] | checker.h [avg.read() = 68 <--> avgDataResult = 68] --> Correct
+
+outputcollect.h --> AVG = 162 [index = 68] | checker.h [avg.read() = 162 <--> avgDataResult = 162] --> Correct
+
+outputcollect.h --> AVG = 122 [index = 69] | checker.h [avg.read() = 122 <--> avgDataResult = 123] --> InCorrect
+
+outputcollect.h --> AVG = 77 [index = 70] | checker.h [avg.read() = 77 <--> avgDataResult = 78] --> InCorrect
+
+outputcollect.h --> AVG = 156 [index = 71] | checker.h [avg.read() = 156 <--> avgDataResult = 157] --> InCorrect
+
+outputcollect.h --> AVG = 116 [index = 72] | checker.h [avg.read() = 116 <--> avgDataResult = 117] --> InCorrect
+
+outputcollect.h --> AVG = 143 [index = 73] | checker.h [avg.read() = 143 <--> avgDataResult = 144] --> InCorrect
+
+outputcollect.h --> AVG = 134 [index = 74] | checker.h [avg.read() = 134 <--> avgDataResult = 134] --> Correct
+
+outputcollect.h --> AVG = 141 [index = 75] | checker.h [avg.read() = 141 <--> avgDataResult = 141] --> Correct
+
+outputcollect.h --> AVG = 77 [index = 76] | checker.h [avg.read() = 77 <--> avgDataResult = 77] --> Correct
+
+outputcollect.h --> AVG = 110 [index = 77] | checker.h [avg.read() = 110 <--> avgDataResult = 110] --> Correct
+
+outputcollect.h --> AVG = 169 [index = 78] | checker.h [avg.read() = 169 <--> avgDataResult = 169] --> Correct
+
+outputcollect.h --> AVG = 136 [index = 79] | checker.h [avg.read() = 136 <--> avgDataResult = 137] --> InCorrect
+
+outputcollect.h --> AVG = 136 [index = 80] | checker.h [avg.read() = 136 <--> avgDataResult = 136] --> Correct
+
+outputcollect.h --> AVG = 138 [index = 81] | checker.h [avg.read() = 138 <--> avgDataResult = 138] --> Correct
+
+outputcollect.h --> AVG = 155 [index = 82] | checker.h [avg.read() = 155 <--> avgDataResult = 156] --> InCorrect
+
+outputcollect.h --> AVG = 125 [index = 83] | checker.h [avg.read() = 125 <--> avgDataResult = 125] --> Correct
+
+outputcollect.h --> AVG = 185 [index = 84] | checker.h [avg.read() = 185 <--> avgDataResult = 186] --> InCorrect
+
+outputcollect.h --> AVG = 108 [index = 85] | checker.h [avg.read() = 108 <--> avgDataResult = 109] --> InCorrect
+
+outputcollect.h --> AVG = 129 [index = 86] | checker.h [avg.read() = 129 <--> avgDataResult = 130] --> InCorrect
+
+outputcollect.h --> AVG = 156 [index = 87] | checker.h [avg.read() = 156 <--> avgDataResult = 156] --> Correct
+
+outputcollect.h --> AVG = 110 [index = 88] | checker.h [avg.read() = 110 <--> avgDataResult = 111] --> InCorrect
+
+outputcollect.h --> AVG = 139 [index = 89] | checker.h [avg.read() = 139 <--> avgDataResult = 139] --> Correct
+
+outputcollect.h --> AVG = 108 [index = 90] | checker.h [avg.read() = 108 <--> avgDataResult = 108] --> Correct
+
+outputcollect.h --> AVG = 92 [index = 91] | checker.h [avg.read() = 92 <--> avgDataResult = 92] --> Correct
+
+outputcollect.h --> AVG = 105 [index = 92] | checker.h [avg.read() = 105 <--> avgDataResult = 105] --> Correct
+
+outputcollect.h --> AVG = 149 [index = 93] | checker.h [avg.read() = 149 <--> avgDataResult = 149] --> Correct
+
+outputcollect.h --> AVG = 110 [index = 94] | checker.h [avg.read() = 110 <--> avgDataResult = 111] --> InCorrect
+
+outputcollect.h --> AVG = 201 [index = 95] | checker.h [avg.read() = 201 <--> avgDataResult = 201] --> Correct
+
+outputcollect.h --> AVG = 124 [index = 96] | checker.h [avg.read() = 124 <--> avgDataResult = 124] --> Correct
+
+outputcollect.h --> AVG = 159 [index = 97] | checker.h [avg.read() = 159 <--> avgDataResult = 159] --> Correct
+
+outputcollect.h --> AVG = 163 [index = 98] | checker.h [avg.read() = 163 <--> avgDataResult = 164] --> InCorrect
+
+outputcollect.h --> AVG = 168 [index = 99] | checker.h [avg.read() = 168 <--> avgDataResult = 169] --> InCorrect
+
+outputcollect.h --> AVG = 178 [index = 100] | checker.h [avg.read() = 178 <--> avgDataResult = 178] --> Correct
+
+outputcollect.h --> AVG = 121 [index = 101] | checker.h [avg.read() = 121 <--> avgDataResult = 121] --> Correct
+
+outputcollect.h --> AVG = 159 [index = 102] | checker.h [avg.read() = 159 <--> avgDataResult = 159] --> Correct
+
+outputcollect.h --> AVG = 110 [index = 103] | checker.h [avg.read() = 110 <--> avgDataResult = 110] --> Correct
+
+outputcollect.h --> AVG = 82 [index = 104] | checker.h [avg.read() = 82 <--> avgDataResult = 82] --> Correct
+
+outputcollect.h --> AVG = 144 [index = 105] | checker.h [avg.read() = 144 <--> avgDataResult = 145] --> InCorrect
+
+outputcollect.h --> AVG = 97 [index = 106] | checker.h [avg.read() = 97 <--> avgDataResult = 98] --> InCorrect
+
+outputcollect.h --> AVG = 159 [index = 107] | checker.h [avg.read() = 159 <--> avgDataResult = 159] --> Correct
+
+outputcollect.h --> AVG = 161 [index = 108] | checker.h [avg.read() = 161 <--> avgDataResult = 162] --> InCorrect
+
+outputcollect.h --> AVG = 156 [index = 109] | checker.h [avg.read() = 156 <--> avgDataResult = 156] --> Correct
+
+outputcollect.h --> AVG = 123 [index = 110] | checker.h [avg.read() = 123 <--> avgDataResult = 124] --> InCorrect
+
+outputcollect.h --> AVG = 156 [index = 111] | checker.h [avg.read() = 156 <--> avgDataResult = 157] --> InCorrect
+
+outputcollect.h --> AVG = 154 [index = 112] | checker.h [avg.read() = 154 <--> avgDataResult = 154] --> Correct
+
+outputcollect.h --> AVG = 106 [index = 113] | checker.h [avg.read() = 106 <--> avgDataResult = 106] --> Correct
+
+outputcollect.h --> AVG = 148 [index = 114] | checker.h [avg.read() = 148 <--> avgDataResult = 148] --> Correct
+
+outputcollect.h --> AVG = 97 [index = 115] | checker.h [avg.read() = 97 <--> avgDataResult = 98] --> InCorrect
+
+outputcollect.h --> AVG = 122 [index = 116] | checker.h [avg.read() = 122 <--> avgDataResult = 123] --> InCorrect
+
+outputcollect.h --> AVG = 89 [index = 117] | checker.h [avg.read() = 89 <--> avgDataResult = 89] --> Correct
+
+outputcollect.h --> AVG = 90 [index = 118] | checker.h [avg.read() = 90 <--> avgDataResult = 90] --> Correct
+
+outputcollect.h --> AVG = 126 [index = 119] | checker.h [avg.read() = 126 <--> avgDataResult = 126] --> Correct
+
+outputcollect.h --> AVG = 157 [index = 120] | checker.h [avg.read() = 157 <--> avgDataResult = 158] --> InCorrect
+
+outputcollect.h --> AVG = 168 [index = 121] | checker.h [avg.read() = 168 <--> avgDataResult = 168] --> Correct
+
+outputcollect.h --> AVG = 121 [index = 122] | checker.h [avg.read() = 121 <--> avgDataResult = 122] --> InCorrect
+
+outputcollect.h --> AVG = 160 [index = 123] | checker.h [avg.read() = 160 <--> avgDataResult = 160] --> Correct
+
+outputcollect.h --> AVG = 86 [index = 124] | checker.h [avg.read() = 86 <--> avgDataResult = 86] --> Correct
+
+outputcollect.h --> AVG = 161 [index = 125] | checker.h [avg.read() = 161 <--> avgDataResult = 161] --> Correct
+
+outputcollect.h --> AVG = 125 [index = 126] | checker.h [avg.read() = 125 <--> avgDataResult = 126] --> InCorrect
+
+outputcollect.h --> AVG = 154 [index = 127] | checker.h [avg.read() = 154 <--> avgDataResult = 154] --> Correct
+
+outputcollect.h --> AVG = 162 [index = 128] | checker.h [avg.read() = 162 <--> avgDataResult = 163] --> InCorrect
+
+outputcollect.h --> AVG = 124 [index = 129] | checker.h [avg.read() = 124 <--> avgDataResult = 125] --> InCorrect
+
+outputcollect.h --> AVG = 129 [index = 130] | checker.h [avg.read() = 129 <--> avgDataResult = 129] --> Correct
+
+outputcollect.h --> AVG = 175 [index = 131] | checker.h [avg.read() = 175 <--> avgDataResult = 176] --> InCorrect
+
+outputcollect.h --> AVG = 175 [index = 132] | checker.h [avg.read() = 175 <--> avgDataResult = 176] --> InCorrect
+
+outputcollect.h --> AVG = 117 [index = 133] | checker.h [avg.read() = 117 <--> avgDataResult = 117] --> Correct
+
+outputcollect.h --> AVG = 128 [index = 134] | checker.h [avg.read() = 128 <--> avgDataResult = 129] --> InCorrect
+
+outputcollect.h --> AVG = 154 [index = 135] | checker.h [avg.read() = 154 <--> avgDataResult = 154] --> Correct
+
+outputcollect.h --> AVG = 92 [index = 136] | checker.h [avg.read() = 92 <--> avgDataResult = 93] --> InCorrect
+
+outputcollect.h --> AVG = 105 [index = 137] | checker.h [avg.read() = 105 <--> avgDataResult = 106] --> InCorrect
+
+outputcollect.h --> AVG = 202 [index = 138] | checker.h [avg.read() = 202 <--> avgDataResult = 203] --> InCorrect
+
+outputcollect.h --> AVG = 84 [index = 139] | checker.h [avg.read() = 84 <--> avgDataResult = 84] --> Correct
+
+outputcollect.h --> AVG = 121 [index = 140] | checker.h [avg.read() = 121 <--> avgDataResult = 122] --> InCorrect
+
+outputcollect.h --> AVG = 178 [index = 141] | checker.h [avg.read() = 178 <--> avgDataResult = 179] --> InCorrect
+
+outputcollect.h --> AVG = 163 [index = 142] | checker.h [avg.read() = 163 <--> avgDataResult = 164] --> InCorrect
+
+outputcollect.h --> AVG = 149 [index = 143] | checker.h [avg.read() = 149 <--> avgDataResult = 150] --> InCorrect
+
+outputcollect.h --> AVG = 120 [index = 144] | checker.h [avg.read() = 120 <--> avgDataResult = 120] --> Correct
+
+outputcollect.h --> AVG = 88 [index = 145] | checker.h [avg.read() = 88 <--> avgDataResult = 88] --> Correct
+
+outputcollect.h --> AVG = 63 [index = 146] | checker.h [avg.read() = 63 <--> avgDataResult = 64] --> InCorrect
+
+outputcollect.h --> AVG = 99 [index = 147] | checker.h [avg.read() = 99 <--> avgDataResult = 100] --> InCorrect
+
+outputcollect.h --> AVG = 150 [index = 148] | checker.h [avg.read() = 150 <--> avgDataResult = 150] --> Correct
+
+outputcollect.h --> AVG = 146 [index = 149] | checker.h [avg.read() = 146 <--> avgDataResult = 146] --> Correct
+
+outputcollect.h --> AVG = 128 [index = 150] | checker.h [avg.read() = 128 <--> avgDataResult = 128] --> Correct
+
+outputcollect.h --> AVG = 113 [index = 151] | checker.h [avg.read() = 113 <--> avgDataResult = 113] --> Correct
+
+outputcollect.h --> AVG = 120 [index = 152] | checker.h [avg.read() = 120 <--> avgDataResult = 120] --> Correct
+
+outputcollect.h --> AVG = 178 [index = 153] | checker.h [avg.read() = 178 <--> avgDataResult = 179] --> InCorrect
+
+outputcollect.h --> AVG = 178 [index = 154] | checker.h [avg.read() = 178 <--> avgDataResult = 178] --> Correct
+
+outputcollect.h --> AVG = 176 [index = 155] | checker.h [avg.read() = 176 <--> avgDataResult = 177] --> InCorrect
+
+outputcollect.h --> AVG = 144 [index = 156] | checker.h [avg.read() = 144 <--> avgDataResult = 144] --> Correct
+
+outputcollect.h --> AVG = 110 [index = 157] | checker.h [avg.read() = 110 <--> avgDataResult = 111] --> InCorrect
+
+outputcollect.h --> AVG = 154 [index = 158] | checker.h [avg.read() = 154 <--> avgDataResult = 155] --> InCorrect
+
+outputcollect.h --> AVG = 128 [index = 159] | checker.h [avg.read() = 128 <--> avgDataResult = 128] --> Correct
+
+outputcollect.h --> AVG = 165 [index = 160] | checker.h [avg.read() = 165 <--> avgDataResult = 165] --> Correct
+
+outputcollect.h --> AVG = 153 [index = 161] | checker.h [avg.read() = 153 <--> avgDataResult = 154] --> InCorrect
+
+outputcollect.h --> AVG = 79 [index = 162] | checker.h [avg.read() = 79 <--> avgDataResult = 80] --> InCorrect
+
+outputcollect.h --> AVG = 116 [index = 163] | checker.h [avg.read() = 116 <--> avgDataResult = 116] --> Correct
+
+outputcollect.h --> AVG = 86 [index = 164] | checker.h [avg.read() = 86 <--> avgDataResult = 87] --> InCorrect
+
+outputcollect.h --> AVG = 166 [index = 165] | checker.h [avg.read() = 166 <--> avgDataResult = 166] --> Correct
+
+outputcollect.h --> AVG = 79 [index = 166] | checker.h [avg.read() = 79 <--> avgDataResult = 80] --> InCorrect
+
+outputcollect.h --> AVG = 139 [index = 167] | checker.h [avg.read() = 139 <--> avgDataResult = 140] --> InCorrect
+
+outputcollect.h --> AVG = 132 [index = 168] | checker.h [avg.read() = 132 <--> avgDataResult = 133] --> InCorrect
+
+outputcollect.h --> AVG = 145 [index = 169] | checker.h [avg.read() = 145 <--> avgDataResult = 145] --> Correct
+
+outputcollect.h --> AVG = 232 [index = 170] | checker.h [avg.read() = 232 <--> avgDataResult = 233] --> InCorrect
+
+outputcollect.h --> AVG = 101 [index = 171] | checker.h [avg.read() = 101 <--> avgDataResult = 102] --> InCorrect
+
+outputcollect.h --> AVG = 66 [index = 172] | checker.h [avg.read() = 66 <--> avgDataResult = 66] --> Correct
+
+outputcollect.h --> AVG = 140 [index = 173] | checker.h [avg.read() = 140 <--> avgDataResult = 140] --> Correct
+
+outputcollect.h --> AVG = 117 [index = 174] | checker.h [avg.read() = 117 <--> avgDataResult = 117] --> Correct
+
+outputcollect.h --> AVG = 124 [index = 175] | checker.h [avg.read() = 124 <--> avgDataResult = 124] --> Correct
+
+outputcollect.h --> AVG = 73 [index = 176] | checker.h [avg.read() = 73 <--> avgDataResult = 73] --> Correct
+
+outputcollect.h --> AVG = 17 [index = 177] | checker.h [avg.read() = 17 <--> avgDataResult = 17] --> Correct
+
+outputcollect.h --> AVG = 155 [index = 178] | checker.h [avg.read() = 155 <--> avgDataResult = 155] --> Correct
+
+outputcollect.h --> AVG = 135 [index = 179] | checker.h [avg.read() = 135 <--> avgDataResult = 135] --> Correct
+
+outputcollect.h --> AVG = 197 [index = 180] | checker.h [avg.read() = 197 <--> avgDataResult = 198] --> InCorrect
+
+outputcollect.h --> AVG = 122 [index = 181] | checker.h [avg.read() = 122 <--> avgDataResult = 122] --> Correct
+
+outputcollect.h --> AVG = 151 [index = 182] | checker.h [avg.read() = 151 <--> avgDataResult = 151] --> Correct
+
+outputcollect.h --> AVG = 143 [index = 183] | checker.h [avg.read() = 143 <--> avgDataResult = 144] --> InCorrect
+
+outputcollect.h --> AVG = 223 [index = 184] | checker.h [avg.read() = 223 <--> avgDataResult = 224] --> InCorrect
+
+outputcollect.h --> AVG = 129 [index = 185] | checker.h [avg.read() = 129 <--> avgDataResult = 130] --> InCorrect
+
+outputcollect.h --> AVG = 204 [index = 186] | checker.h [avg.read() = 204 <--> avgDataResult = 204] --> Correct
+
+outputcollect.h --> AVG = 126 [index = 187] | checker.h [avg.read() = 126 <--> avgDataResult = 126] --> Correct
+
+outputcollect.h --> AVG = 93 [index = 188] | checker.h [avg.read() = 93 <--> avgDataResult = 94] --> InCorrect
+
+outputcollect.h --> AVG = 112 [index = 189] | checker.h [avg.read() = 112 <--> avgDataResult = 112] --> Correct
+
+outputcollect.h --> AVG = 94 [index = 190] | checker.h [avg.read() = 94 <--> avgDataResult = 94] --> Correct
+
+outputcollect.h --> AVG = 158 [index = 191] | checker.h [avg.read() = 158 <--> avgDataResult = 158] --> Correct
+
+outputcollect.h --> AVG = 101 [index = 192] | checker.h [avg.read() = 101 <--> avgDataResult = 102] --> InCorrect
+
+outputcollect.h --> AVG = 41 [index = 193] | checker.h [avg.read() = 41 <--> avgDataResult = 42] --> InCorrect
+
+outputcollect.h --> AVG = 159 [index = 194] | checker.h [avg.read() = 159 <--> avgDataResult = 159] --> Correct
+
+outputcollect.h --> AVG = 64 [index = 195] | checker.h [avg.read() = 64 <--> avgDataResult = 64] --> Correct
+
+outputcollect.h --> AVG = 122 [index = 196] | checker.h [avg.read() = 122 <--> avgDataResult = 122] --> Correct
+
+outputcollect.h --> AVG = 189 [index = 197] | checker.h [avg.read() = 189 <--> avgDataResult = 190] --> InCorrect
+
+outputcollect.h --> AVG = 123 [index = 198] | checker.h [avg.read() = 123 <--> avgDataResult = 124] --> InCorrect
+
+outputcollect.h --> AVG = 62 [index = 199] | checker.h [avg.read() = 62 <--> avgDataResult = 62] --> Correct
+
+outputcollect.h --> AVG = 76 [index = 200] | checker.h [avg.read() = 76 <--> avgDataResult = 77] --> InCorrect
+
+outputcollect.h --> AVG = 99 [index = 201] | checker.h [avg.read() = 99 <--> avgDataResult = 100] --> InCorrect
+
+outputcollect.h --> AVG = 52 [index = 202] | checker.h [avg.read() = 52 <--> avgDataResult = 52] --> Correct
+
+outputcollect.h --> AVG = 95 [index = 203] | checker.h [avg.read() = 95 <--> avgDataResult = 96] --> InCorrect
+
+outputcollect.h --> AVG = 124 [index = 204] | checker.h [avg.read() = 124 <--> avgDataResult = 124] --> Correct
+
+outputcollect.h --> AVG = 139 [index = 205] | checker.h [avg.read() = 139 <--> avgDataResult = 139] --> Correct
+
+outputcollect.h --> AVG = 133 [index = 206] | checker.h [avg.read() = 133 <--> avgDataResult = 134] --> InCorrect
+
+outputcollect.h --> AVG = 179 [index = 207] | checker.h [avg.read() = 179 <--> avgDataResult = 179] --> Correct
+
+outputcollect.h --> AVG = 130 [index = 208] | checker.h [avg.read() = 130 <--> avgDataResult = 130] --> Correct
+
+outputcollect.h --> AVG = 198 [index = 209] | checker.h [avg.read() = 198 <--> avgDataResult = 198] --> Correct
+
+outputcollect.h --> AVG = 155 [index = 210] | checker.h [avg.read() = 155 <--> avgDataResult = 155] --> Correct
+
+outputcollect.h --> AVG = 76 [index = 211] | checker.h [avg.read() = 76 <--> avgDataResult = 76] --> Correct
+
+outputcollect.h --> AVG = 205 [index = 212] | checker.h [avg.read() = 205 <--> avgDataResult = 206] --> InCorrect
+
+outputcollect.h --> AVG = 82 [index = 213] | checker.h [avg.read() = 82 <--> avgDataResult = 82] --> Correct
+
+outputcollect.h --> AVG = 58 [index = 214] | checker.h [avg.read() = 58 <--> avgDataResult = 58] --> Correct
+
+outputcollect.h --> AVG = 123 [index = 215] | checker.h [avg.read() = 123 <--> avgDataResult = 123] --> Correct
+
+outputcollect.h --> AVG = 122 [index = 216] | checker.h [avg.read() = 122 <--> avgDataResult = 122] --> Correct
+
+outputcollect.h --> AVG = 73 [index = 217] | checker.h [avg.read() = 73 <--> avgDataResult = 73] --> Correct
+
+outputcollect.h --> AVG = 86 [index = 218] | checker.h [avg.read() = 86 <--> avgDataResult = 86] --> Correct
+
+outputcollect.h --> AVG = 173 [index = 219] | checker.h [avg.read() = 173 <--> avgDataResult = 174] --> InCorrect
+
+outputcollect.h --> AVG = 143 [index = 220] | checker.h [avg.read() = 143 <--> avgDataResult = 143] --> Correct
+
+outputcollect.h --> AVG = 73 [index = 221] | checker.h [avg.read() = 73 <--> avgDataResult = 73] --> Correct
+
+outputcollect.h --> AVG = 119 [index = 222] | checker.h [avg.read() = 119 <--> avgDataResult = 120] --> InCorrect
+
+outputcollect.h --> AVG = 155 [index = 223] | checker.h [avg.read() = 155 <--> avgDataResult = 156] --> InCorrect
+
+outputcollect.h --> AVG = 68 [index = 224] | checker.h [avg.read() = 68 <--> avgDataResult = 69] --> InCorrect
+
+outputcollect.h --> AVG = 162 [index = 225] | checker.h [avg.read() = 162 <--> avgDataResult = 162] --> Correct
+
+outputcollect.h --> AVG = 125 [index = 226] | checker.h [avg.read() = 125 <--> avgDataResult = 125] --> Correct
+
+outputcollect.h --> AVG = 136 [index = 227] | checker.h [avg.read() = 136 <--> avgDataResult = 136] --> Correct
+
+outputcollect.h --> AVG = 120 [index = 228] | checker.h [avg.read() = 120 <--> avgDataResult = 121] --> InCorrect
+
+outputcollect.h --> AVG = 114 [index = 229] | checker.h [avg.read() = 114 <--> avgDataResult = 114] --> Correct
+
+outputcollect.h --> AVG = 137 [index = 230] | checker.h [avg.read() = 137 <--> avgDataResult = 138] --> InCorrect
+
+outputcollect.h --> AVG = 151 [index = 231] | checker.h [avg.read() = 151 <--> avgDataResult = 151] --> Correct
+
+outputcollect.h --> AVG = 165 [index = 232] | checker.h [avg.read() = 165 <--> avgDataResult = 165] --> Correct
+
+outputcollect.h --> AVG = 100 [index = 233] | checker.h [avg.read() = 100 <--> avgDataResult = 100] --> Correct
+
+outputcollect.h --> AVG = 178 [index = 234] | checker.h [avg.read() = 178 <--> avgDataResult = 179] --> InCorrect
+
+outputcollect.h --> AVG = 101 [index = 235] | checker.h [avg.read() = 101 <--> avgDataResult = 102] --> InCorrect
+
+outputcollect.h --> AVG = 112 [index = 236] | checker.h [avg.read() = 112 <--> avgDataResult = 113] --> InCorrect
+
+outputcollect.h --> AVG = 65 [index = 237] | checker.h [avg.read() = 65 <--> avgDataResult = 65] --> Correct
+
+outputcollect.h --> AVG = 158 [index = 238] | checker.h [avg.read() = 158 <--> avgDataResult = 159] --> InCorrect
+
+outputcollect.h --> AVG = 59 [index = 239] | checker.h [avg.read() = 59 <--> avgDataResult = 59] --> Correct
+
+outputcollect.h --> AVG = 190 [index = 240] | checker.h [avg.read() = 190 <--> avgDataResult = 190] --> Correct
+
+outputcollect.h --> AVG = 157 [index = 241] | checker.h [avg.read() = 157 <--> avgDataResult = 158] --> InCorrect
+
+outputcollect.h --> AVG = 134 [index = 242] | checker.h [avg.read() = 134 <--> avgDataResult = 134] --> Correct
+
+outputcollect.h --> AVG = 70 [index = 243] | checker.h [avg.read() = 70 <--> avgDataResult = 70] --> Correct
+
+outputcollect.h --> AVG = 174 [index = 244] | checker.h [avg.read() = 174 <--> avgDataResult = 174] --> Correct
+
+outputcollect.h --> AVG = 84 [index = 245] | checker.h [avg.read() = 84 <--> avgDataResult = 84] --> Correct
+
+outputcollect.h --> AVG = 148 [index = 246] | checker.h [avg.read() = 148 <--> avgDataResult = 148] --> Correct
+
+outputcollect.h --> AVG = 85 [index = 247] | checker.h [avg.read() = 85 <--> avgDataResult = 86] --> InCorrect
+
+outputcollect.h --> AVG = 123 [index = 248] | checker.h [avg.read() = 123 <--> avgDataResult = 123] --> Correct
+
+outputcollect.h --> AVG = 129 [index = 249] | checker.h [avg.read() = 129 <--> avgDataResult = 130] --> InCorrect
+
+outputcollect.h --> AVG = 78 [index = 250] | checker.h [avg.read() = 78 <--> avgDataResult = 78] --> Correct
+
+outputcollect.h --> AVG = 150 [index = 251] | checker.h [avg.read() = 150 <--> avgDataResult = 150] --> Correct
+
+outputcollect.h --> AVG = 108 [index = 252] | checker.h [avg.read() = 108 <--> avgDataResult = 108] --> Correct
+
+outputcollect.h --> AVG = 143 [index = 253] | checker.h [avg.read() = 143 <--> avgDataResult = 144] --> InCorrect
+
+outputcollect.h --> AVG = 152 [index = 254] | checker.h [avg.read() = 152 <--> avgDataResult = 152] --> Correct
+
+outputcollect.h --> AVG = 90 [index = 255] | checker.h [avg.read() = 90 <--> avgDataResult = 90] --> Correct
+=================================================================================================================================
+Correct Result = 152
+In Correct Result = 104
+
+Info: /OSCI/SystemC: Simulation stopped by user.
+
+
+Info: (I702) default timescale unit used for tracing: 1 ps (trace.vcd)
+outputcollect.h --> AVG = 130 [index = 0] | checker.h [avg.read() = 130 <--> avgDataResult = 130] --> Correct
+
+outputcollect.h --> AVG = 161 [index = 1] | checker.h [avg.read() = 161 <--> avgDataResult = 161] --> Correct
+
+outputcollect.h --> AVG = 150 [index = 2] | checker.h [avg.read() = 150 <--> avgDataResult = 150] --> Correct
+
+outputcollect.h --> AVG = 197 [index = 3] | checker.h [avg.read() = 197 <--> avgDataResult = 197] --> Correct
+
+outputcollect.h --> AVG = 162 [index = 4] | checker.h [avg.read() = 162 <--> avgDataResult = 162] --> Correct
+
+outputcollect.h --> AVG = 157 [index = 5] | checker.h [avg.read() = 157 <--> avgDataResult = 157] --> Correct
+
+outputcollect.h --> AVG = 88 [index = 6] | checker.h [avg.read() = 88 <--> avgDataResult = 88] --> Correct
+
+outputcollect.h --> AVG = 141 [index = 7] | checker.h [avg.read() = 141 <--> avgDataResult = 141] --> Correct
+
+outputcollect.h --> AVG = 87 [index = 8] | checker.h [avg.read() = 87 <--> avgDataResult = 87] --> Correct
+
+outputcollect.h --> AVG = 97 [index = 9] | checker.h [avg.read() = 97 <--> avgDataResult = 97] --> Correct
+
+outputcollect.h --> AVG = 39 [index = 10] | checker.h [avg.read() = 39 <--> avgDataResult = 39] --> Correct
+
+outputcollect.h --> AVG = 156 [index = 11] | checker.h [avg.read() = 156 <--> avgDataResult = 156] --> Correct
+
+outputcollect.h --> AVG = 188 [index = 12] | checker.h [avg.read() = 188 <--> avgDataResult = 188] --> Correct
+
+outputcollect.h --> AVG = 109 [index = 13] | checker.h [avg.read() = 109 <--> avgDataResult = 109] --> Correct
+
+outputcollect.h --> AVG = 81 [index = 14] | checker.h [avg.read() = 81 <--> avgDataResult = 81] --> Correct
+
+outputcollect.h --> AVG = 112 [index = 15] | checker.h [avg.read() = 112 <--> avgDataResult = 112] --> Correct
+
+outputcollect.h --> AVG = 142 [index = 16] | checker.h [avg.read() = 142 <--> avgDataResult = 142] --> Correct
+
+outputcollect.h --> AVG = 161 [index = 17] | checker.h [avg.read() = 161 <--> avgDataResult = 161] --> Correct
+
+outputcollect.h --> AVG = 85 [index = 18] | checker.h [avg.read() = 85 <--> avgDataResult = 85] --> Correct
+
+outputcollect.h --> AVG = 177 [index = 19] | checker.h [avg.read() = 177 <--> avgDataResult = 177] --> Correct
+
+outputcollect.h --> AVG = 83 [index = 20] | checker.h [avg.read() = 83 <--> avgDataResult = 83] --> Correct
+
+outputcollect.h --> AVG = 180 [index = 21] | checker.h [avg.read() = 180 <--> avgDataResult = 180] --> Correct
+
+outputcollect.h --> AVG = 92 [index = 22] | checker.h [avg.read() = 92 <--> avgDataResult = 92] --> Correct
+
+outputcollect.h --> AVG = 142 [index = 23] | checker.h [avg.read() = 142 <--> avgDataResult = 142] --> Correct
+
+outputcollect.h --> AVG = 87 [index = 24] | checker.h [avg.read() = 87 <--> avgDataResult = 87] --> Correct
+
+outputcollect.h --> AVG = 182 [index = 25] | checker.h [avg.read() = 182 <--> avgDataResult = 182] --> Correct
+
+outputcollect.h --> AVG = 182 [index = 26] | checker.h [avg.read() = 182 <--> avgDataResult = 182] --> Correct
+
+outputcollect.h --> AVG = 84 [index = 27] | checker.h [avg.read() = 84 <--> avgDataResult = 84] --> Correct
+
+outputcollect.h --> AVG = 155 [index = 28] | checker.h [avg.read() = 155 <--> avgDataResult = 155] --> Correct
+
+outputcollect.h --> AVG = 166 [index = 29] | checker.h [avg.read() = 166 <--> avgDataResult = 166] --> Correct
+
+outputcollect.h --> AVG = 121 [index = 30] | checker.h [avg.read() = 121 <--> avgDataResult = 121] --> Correct
+
+outputcollect.h --> AVG = 208 [index = 31] | checker.h [avg.read() = 208 <--> avgDataResult = 208] --> Correct
+
+outputcollect.h --> AVG = 122 [index = 32] | checker.h [avg.read() = 122 <--> avgDataResult = 122] --> Correct
+
+outputcollect.h --> AVG = 170 [index = 33] | checker.h [avg.read() = 170 <--> avgDataResult = 170] --> Correct
+
+outputcollect.h --> AVG = 156 [index = 34] | checker.h [avg.read() = 156 <--> avgDataResult = 156] --> Correct
+
+outputcollect.h --> AVG = 108 [index = 35] | checker.h [avg.read() = 108 <--> avgDataResult = 108] --> Correct
+
+outputcollect.h --> AVG = 66 [index = 36] | checker.h [avg.read() = 66 <--> avgDataResult = 66] --> Correct
+
+outputcollect.h --> AVG = 112 [index = 37] | checker.h [avg.read() = 112 <--> avgDataResult = 112] --> Correct
+
+outputcollect.h --> AVG = 105 [index = 38] | checker.h [avg.read() = 105 <--> avgDataResult = 105] --> Correct
+
+outputcollect.h --> AVG = 97 [index = 39] | checker.h [avg.read() = 97 <--> avgDataResult = 97] --> Correct
+
+outputcollect.h --> AVG = 76 [index = 40] | checker.h [avg.read() = 76 <--> avgDataResult = 76] --> Correct
+
+outputcollect.h --> AVG = 101 [index = 41] | checker.h [avg.read() = 101 <--> avgDataResult = 101] --> Correct
+
+outputcollect.h --> AVG = 199 [index = 42] | checker.h [avg.read() = 199 <--> avgDataResult = 199] --> Correct
+
+outputcollect.h --> AVG = 69 [index = 43] | checker.h [avg.read() = 69 <--> avgDataResult = 69] --> Correct
+
+outputcollect.h --> AVG = 140 [index = 44] | checker.h [avg.read() = 140 <--> avgDataResult = 140] --> Correct
+
+outputcollect.h --> AVG = 64 [index = 45] | checker.h [avg.read() = 64 <--> avgDataResult = 64] --> Correct
+
+outputcollect.h --> AVG = 89 [index = 46] | checker.h [avg.read() = 89 <--> avgDataResult = 89] --> Correct
+
+outputcollect.h --> AVG = 177 [index = 47] | checker.h [avg.read() = 177 <--> avgDataResult = 177] --> Correct
+
+outputcollect.h --> AVG = 72 [index = 48] | checker.h [avg.read() = 72 <--> avgDataResult = 72] --> Correct
+
+outputcollect.h --> AVG = 112 [index = 49] | checker.h [avg.read() = 112 <--> avgDataResult = 112] --> Correct
+
+outputcollect.h --> AVG = 114 [index = 50] | checker.h [avg.read() = 114 <--> avgDataResult = 114] --> Correct
+
+outputcollect.h --> AVG = 173 [index = 51] | checker.h [avg.read() = 173 <--> avgDataResult = 173] --> Correct
+
+outputcollect.h --> AVG = 120 [index = 52] | checker.h [avg.read() = 120 <--> avgDataResult = 120] --> Correct
+
+outputcollect.h --> AVG = 77 [index = 53] | checker.h [avg.read() = 77 <--> avgDataResult = 77] --> Correct
+
+outputcollect.h --> AVG = 120 [index = 54] | checker.h [avg.read() = 120 <--> avgDataResult = 120] --> Correct
+
+outputcollect.h --> AVG = 141 [index = 55] | checker.h [avg.read() = 141 <--> avgDataResult = 141] --> Correct
+
+outputcollect.h --> AVG = 95 [index = 56] | checker.h [avg.read() = 95 <--> avgDataResult = 95] --> Correct
+
+outputcollect.h --> AVG = 110 [index = 57] | checker.h [avg.read() = 110 <--> avgDataResult = 110] --> Correct
+
+outputcollect.h --> AVG = 149 [index = 58] | checker.h [avg.read() = 149 <--> avgDataResult = 149] --> Correct
+
+outputcollect.h --> AVG = 91 [index = 59] | checker.h [avg.read() = 91 <--> avgDataResult = 91] --> Correct
+
+outputcollect.h --> AVG = 139 [index = 60] | checker.h [avg.read() = 139 <--> avgDataResult = 139] --> Correct
+
+outputcollect.h --> AVG = 213 [index = 61] | checker.h [avg.read() = 213 <--> avgDataResult = 213] --> Correct
+
+outputcollect.h --> AVG = 55 [index = 62] | checker.h [avg.read() = 55 <--> avgDataResult = 55] --> Correct
+
+outputcollect.h --> AVG = 157 [index = 63] | checker.h [avg.read() = 157 <--> avgDataResult = 157] --> Correct
+
+outputcollect.h --> AVG = 127 [index = 64] | checker.h [avg.read() = 127 <--> avgDataResult = 127] --> Correct
+
+outputcollect.h --> AVG = 83 [index = 65] | checker.h [avg.read() = 83 <--> avgDataResult = 83] --> Correct
+
+outputcollect.h --> AVG = 141 [index = 66] | checker.h [avg.read() = 141 <--> avgDataResult = 141] --> Correct
+
+outputcollect.h --> AVG = 68 [index = 67] | checker.h [avg.read() = 68 <--> avgDataResult = 68] --> Correct
+
+outputcollect.h --> AVG = 162 [index = 68] | checker.h [avg.read() = 162 <--> avgDataResult = 162] --> Correct
+
+outputcollect.h --> AVG = 122 [index = 69] | checker.h [avg.read() = 122 <--> avgDataResult = 122] --> Correct
+
+outputcollect.h --> AVG = 77 [index = 70] | checker.h [avg.read() = 77 <--> avgDataResult = 77] --> Correct
+
+outputcollect.h --> AVG = 156 [index = 71] | checker.h [avg.read() = 156 <--> avgDataResult = 156] --> Correct
+
+outputcollect.h --> AVG = 116 [index = 72] | checker.h [avg.read() = 116 <--> avgDataResult = 116] --> Correct
+
+outputcollect.h --> AVG = 143 [index = 73] | checker.h [avg.read() = 143 <--> avgDataResult = 143] --> Correct
+
+outputcollect.h --> AVG = 134 [index = 74] | checker.h [avg.read() = 134 <--> avgDataResult = 134] --> Correct
+
+outputcollect.h --> AVG = 141 [index = 75] | checker.h [avg.read() = 141 <--> avgDataResult = 141] --> Correct
+
+outputcollect.h --> AVG = 77 [index = 76] | checker.h [avg.read() = 77 <--> avgDataResult = 77] --> Correct
+
+outputcollect.h --> AVG = 110 [index = 77] | checker.h [avg.read() = 110 <--> avgDataResult = 110] --> Correct
+
+outputcollect.h --> AVG = 169 [index = 78] | checker.h [avg.read() = 169 <--> avgDataResult = 169] --> Correct
+
+outputcollect.h --> AVG = 136 [index = 79] | checker.h [avg.read() = 136 <--> avgDataResult = 136] --> Correct
+
+outputcollect.h --> AVG = 136 [index = 80] | checker.h [avg.read() = 136 <--> avgDataResult = 136] --> Correct
+
+outputcollect.h --> AVG = 138 [index = 81] | checker.h [avg.read() = 138 <--> avgDataResult = 138] --> Correct
+
+outputcollect.h --> AVG = 155 [index = 82] | checker.h [avg.read() = 155 <--> avgDataResult = 155] --> Correct
+
+outputcollect.h --> AVG = 125 [index = 83] | checker.h [avg.read() = 125 <--> avgDataResult = 125] --> Correct
+
+outputcollect.h --> AVG = 185 [index = 84] | checker.h [avg.read() = 185 <--> avgDataResult = 185] --> Correct
+
+outputcollect.h --> AVG = 108 [index = 85] | checker.h [avg.read() = 108 <--> avgDataResult = 108] --> Correct
+
+outputcollect.h --> AVG = 129 [index = 86] | checker.h [avg.read() = 129 <--> avgDataResult = 129] --> Correct
+
+outputcollect.h --> AVG = 156 [index = 87] | checker.h [avg.read() = 156 <--> avgDataResult = 156] --> Correct
+
+outputcollect.h --> AVG = 110 [index = 88] | checker.h [avg.read() = 110 <--> avgDataResult = 110] --> Correct
+
+outputcollect.h --> AVG = 139 [index = 89] | checker.h [avg.read() = 139 <--> avgDataResult = 139] --> Correct
+
+outputcollect.h --> AVG = 108 [index = 90] | checker.h [avg.read() = 108 <--> avgDataResult = 108] --> Correct
+
+outputcollect.h --> AVG = 92 [index = 91] | checker.h [avg.read() = 92 <--> avgDataResult = 92] --> Correct
+
+outputcollect.h --> AVG = 105 [index = 92] | checker.h [avg.read() = 105 <--> avgDataResult = 105] --> Correct
+
+outputcollect.h --> AVG = 149 [index = 93] | checker.h [avg.read() = 149 <--> avgDataResult = 149] --> Correct
+
+outputcollect.h --> AVG = 110 [index = 94] | checker.h [avg.read() = 110 <--> avgDataResult = 110] --> Correct
+
+outputcollect.h --> AVG = 201 [index = 95] | checker.h [avg.read() = 201 <--> avgDataResult = 201] --> Correct
+
+outputcollect.h --> AVG = 124 [index = 96] | checker.h [avg.read() = 124 <--> avgDataResult = 124] --> Correct
+
+outputcollect.h --> AVG = 159 [index = 97] | checker.h [avg.read() = 159 <--> avgDataResult = 159] --> Correct
+
+outputcollect.h --> AVG = 163 [index = 98] | checker.h [avg.read() = 163 <--> avgDataResult = 163] --> Correct
+
+outputcollect.h --> AVG = 168 [index = 99] | checker.h [avg.read() = 168 <--> avgDataResult = 168] --> Correct
+
+outputcollect.h --> AVG = 178 [index = 100] | checker.h [avg.read() = 178 <--> avgDataResult = 178] --> Correct
+
+outputcollect.h --> AVG = 121 [index = 101] | checker.h [avg.read() = 121 <--> avgDataResult = 121] --> Correct
+
+outputcollect.h --> AVG = 159 [index = 102] | checker.h [avg.read() = 159 <--> avgDataResult = 159] --> Correct
+
+outputcollect.h --> AVG = 110 [index = 103] | checker.h [avg.read() = 110 <--> avgDataResult = 110] --> Correct
+
+outputcollect.h --> AVG = 82 [index = 104] | checker.h [avg.read() = 82 <--> avgDataResult = 82] --> Correct
+
+outputcollect.h --> AVG = 144 [index = 105] | checker.h [avg.read() = 144 <--> avgDataResult = 144] --> Correct
+
+outputcollect.h --> AVG = 97 [index = 106] | checker.h [avg.read() = 97 <--> avgDataResult = 97] --> Correct
+
+outputcollect.h --> AVG = 159 [index = 107] | checker.h [avg.read() = 159 <--> avgDataResult = 159] --> Correct
+
+outputcollect.h --> AVG = 161 [index = 108] | checker.h [avg.read() = 161 <--> avgDataResult = 161] --> Correct
+
+outputcollect.h --> AVG = 156 [index = 109] | checker.h [avg.read() = 156 <--> avgDataResult = 156] --> Correct
+
+outputcollect.h --> AVG = 123 [index = 110] | checker.h [avg.read() = 123 <--> avgDataResult = 123] --> Correct
+
+outputcollect.h --> AVG = 156 [index = 111] | checker.h [avg.read() = 156 <--> avgDataResult = 156] --> Correct
+
+outputcollect.h --> AVG = 154 [index = 112] | checker.h [avg.read() = 154 <--> avgDataResult = 154] --> Correct
+
+outputcollect.h --> AVG = 106 [index = 113] | checker.h [avg.read() = 106 <--> avgDataResult = 106] --> Correct
+
+outputcollect.h --> AVG = 148 [index = 114] | checker.h [avg.read() = 148 <--> avgDataResult = 148] --> Correct
+
+outputcollect.h --> AVG = 97 [index = 115] | checker.h [avg.read() = 97 <--> avgDataResult = 97] --> Correct
+
+outputcollect.h --> AVG = 122 [index = 116] | checker.h [avg.read() = 122 <--> avgDataResult = 122] --> Correct
+
+outputcollect.h --> AVG = 89 [index = 117] | checker.h [avg.read() = 89 <--> avgDataResult = 89] --> Correct
+
+outputcollect.h --> AVG = 90 [index = 118] | checker.h [avg.read() = 90 <--> avgDataResult = 90] --> Correct
+
+outputcollect.h --> AVG = 126 [index = 119] | checker.h [avg.read() = 126 <--> avgDataResult = 126] --> Correct
+
+outputcollect.h --> AVG = 157 [index = 120] | checker.h [avg.read() = 157 <--> avgDataResult = 157] --> Correct
+
+outputcollect.h --> AVG = 168 [index = 121] | checker.h [avg.read() = 168 <--> avgDataResult = 168] --> Correct
+
+outputcollect.h --> AVG = 121 [index = 122] | checker.h [avg.read() = 121 <--> avgDataResult = 121] --> Correct
+
+outputcollect.h --> AVG = 160 [index = 123] | checker.h [avg.read() = 160 <--> avgDataResult = 160] --> Correct
+
+outputcollect.h --> AVG = 86 [index = 124] | checker.h [avg.read() = 86 <--> avgDataResult = 86] --> Correct
+
+outputcollect.h --> AVG = 161 [index = 125] | checker.h [avg.read() = 161 <--> avgDataResult = 161] --> Correct
+
+outputcollect.h --> AVG = 125 [index = 126] | checker.h [avg.read() = 125 <--> avgDataResult = 125] --> Correct
+
+outputcollect.h --> AVG = 154 [index = 127] | checker.h [avg.read() = 154 <--> avgDataResult = 154] --> Correct
+
+outputcollect.h --> AVG = 162 [index = 128] | checker.h [avg.read() = 162 <--> avgDataResult = 162] --> Correct
+
+outputcollect.h --> AVG = 124 [index = 129] | checker.h [avg.read() = 124 <--> avgDataResult = 124] --> Correct
+
+outputcollect.h --> AVG = 129 [index = 130] | checker.h [avg.read() = 129 <--> avgDataResult = 129] --> Correct
+
+outputcollect.h --> AVG = 175 [index = 131] | checker.h [avg.read() = 175 <--> avgDataResult = 175] --> Correct
+
+outputcollect.h --> AVG = 175 [index = 132] | checker.h [avg.read() = 175 <--> avgDataResult = 175] --> Correct
+
+outputcollect.h --> AVG = 117 [index = 133] | checker.h [avg.read() = 117 <--> avgDataResult = 117] --> Correct
+
+outputcollect.h --> AVG = 128 [index = 134] | checker.h [avg.read() = 128 <--> avgDataResult = 128] --> Correct
+
+outputcollect.h --> AVG = 154 [index = 135] | checker.h [avg.read() = 154 <--> avgDataResult = 154] --> Correct
+
+outputcollect.h --> AVG = 92 [index = 136] | checker.h [avg.read() = 92 <--> avgDataResult = 92] --> Correct
+
+outputcollect.h --> AVG = 105 [index = 137] | checker.h [avg.read() = 105 <--> avgDataResult = 105] --> Correct
+
+outputcollect.h --> AVG = 202 [index = 138] | checker.h [avg.read() = 202 <--> avgDataResult = 202] --> Correct
+
+outputcollect.h --> AVG = 84 [index = 139] | checker.h [avg.read() = 84 <--> avgDataResult = 84] --> Correct
+
+outputcollect.h --> AVG = 121 [index = 140] | checker.h [avg.read() = 121 <--> avgDataResult = 121] --> Correct
+
+outputcollect.h --> AVG = 178 [index = 141] | checker.h [avg.read() = 178 <--> avgDataResult = 178] --> Correct
+
+outputcollect.h --> AVG = 163 [index = 142] | checker.h [avg.read() = 163 <--> avgDataResult = 163] --> Correct
+
+outputcollect.h --> AVG = 149 [index = 143] | checker.h [avg.read() = 149 <--> avgDataResult = 149] --> Correct
+
+outputcollect.h --> AVG = 120 [index = 144] | checker.h [avg.read() = 120 <--> avgDataResult = 120] --> Correct
+
+outputcollect.h --> AVG = 88 [index = 145] | checker.h [avg.read() = 88 <--> avgDataResult = 88] --> Correct
+
+outputcollect.h --> AVG = 63 [index = 146] | checker.h [avg.read() = 63 <--> avgDataResult = 63] --> Correct
+
+outputcollect.h --> AVG = 99 [index = 147] | checker.h [avg.read() = 99 <--> avgDataResult = 99] --> Correct
+
+outputcollect.h --> AVG = 150 [index = 148] | checker.h [avg.read() = 150 <--> avgDataResult = 150] --> Correct
+
+outputcollect.h --> AVG = 146 [index = 149] | checker.h [avg.read() = 146 <--> avgDataResult = 146] --> Correct
+
+outputcollect.h --> AVG = 128 [index = 150] | checker.h [avg.read() = 128 <--> avgDataResult = 128] --> Correct
+
+outputcollect.h --> AVG = 113 [index = 151] | checker.h [avg.read() = 113 <--> avgDataResult = 113] --> Correct
+
+outputcollect.h --> AVG = 120 [index = 152] | checker.h [avg.read() = 120 <--> avgDataResult = 120] --> Correct
+
+outputcollect.h --> AVG = 178 [index = 153] | checker.h [avg.read() = 178 <--> avgDataResult = 178] --> Correct
+
+outputcollect.h --> AVG = 178 [index = 154] | checker.h [avg.read() = 178 <--> avgDataResult = 178] --> Correct
+
+outputcollect.h --> AVG = 176 [index = 155] | checker.h [avg.read() = 176 <--> avgDataResult = 176] --> Correct
+
+outputcollect.h --> AVG = 144 [index = 156] | checker.h [avg.read() = 144 <--> avgDataResult = 144] --> Correct
+
+outputcollect.h --> AVG = 110 [index = 157] | checker.h [avg.read() = 110 <--> avgDataResult = 110] --> Correct
+
+outputcollect.h --> AVG = 154 [index = 158] | checker.h [avg.read() = 154 <--> avgDataResult = 154] --> Correct
+
+outputcollect.h --> AVG = 128 [index = 159] | checker.h [avg.read() = 128 <--> avgDataResult = 128] --> Correct
+
+outputcollect.h --> AVG = 165 [index = 160] | checker.h [avg.read() = 165 <--> avgDataResult = 165] --> Correct
+
+outputcollect.h --> AVG = 153 [index = 161] | checker.h [avg.read() = 153 <--> avgDataResult = 153] --> Correct
+
+outputcollect.h --> AVG = 79 [index = 162] | checker.h [avg.read() = 79 <--> avgDataResult = 79] --> Correct
+
+outputcollect.h --> AVG = 116 [index = 163] | checker.h [avg.read() = 116 <--> avgDataResult = 116] --> Correct
+
+outputcollect.h --> AVG = 86 [index = 164] | checker.h [avg.read() = 86 <--> avgDataResult = 86] --> Correct
+
+outputcollect.h --> AVG = 166 [index = 165] | checker.h [avg.read() = 166 <--> avgDataResult = 166] --> Correct
+
+outputcollect.h --> AVG = 79 [index = 166] | checker.h [avg.read() = 79 <--> avgDataResult = 79] --> Correct
+
+outputcollect.h --> AVG = 139 [index = 167] | checker.h [avg.read() = 139 <--> avgDataResult = 139] --> Correct
+
+outputcollect.h --> AVG = 132 [index = 168] | checker.h [avg.read() = 132 <--> avgDataResult = 132] --> Correct
+
+outputcollect.h --> AVG = 145 [index = 169] | checker.h [avg.read() = 145 <--> avgDataResult = 145] --> Correct
+
+outputcollect.h --> AVG = 232 [index = 170] | checker.h [avg.read() = 232 <--> avgDataResult = 232] --> Correct
+
+outputcollect.h --> AVG = 101 [index = 171] | checker.h [avg.read() = 101 <--> avgDataResult = 101] --> Correct
+
+outputcollect.h --> AVG = 66 [index = 172] | checker.h [avg.read() = 66 <--> avgDataResult = 66] --> Correct
+
+outputcollect.h --> AVG = 140 [index = 173] | checker.h [avg.read() = 140 <--> avgDataResult = 140] --> Correct
+
+outputcollect.h --> AVG = 117 [index = 174] | checker.h [avg.read() = 117 <--> avgDataResult = 117] --> Correct
+
+outputcollect.h --> AVG = 124 [index = 175] | checker.h [avg.read() = 124 <--> avgDataResult = 124] --> Correct
+
+outputcollect.h --> AVG = 73 [index = 176] | checker.h [avg.read() = 73 <--> avgDataResult = 73] --> Correct
+
+outputcollect.h --> AVG = 17 [index = 177] | checker.h [avg.read() = 17 <--> avgDataResult = 17] --> Correct
+
+outputcollect.h --> AVG = 155 [index = 178] | checker.h [avg.read() = 155 <--> avgDataResult = 155] --> Correct
+
+outputcollect.h --> AVG = 135 [index = 179] | checker.h [avg.read() = 135 <--> avgDataResult = 135] --> Correct
+
+outputcollect.h --> AVG = 197 [index = 180] | checker.h [avg.read() = 197 <--> avgDataResult = 197] --> Correct
+
+outputcollect.h --> AVG = 122 [index = 181] | checker.h [avg.read() = 122 <--> avgDataResult = 122] --> Correct
+
+outputcollect.h --> AVG = 151 [index = 182] | checker.h [avg.read() = 151 <--> avgDataResult = 151] --> Correct
+
+outputcollect.h --> AVG = 143 [index = 183] | checker.h [avg.read() = 143 <--> avgDataResult = 143] --> Correct
+
+outputcollect.h --> AVG = 223 [index = 184] | checker.h [avg.read() = 223 <--> avgDataResult = 223] --> Correct
+
+outputcollect.h --> AVG = 129 [index = 185] | checker.h [avg.read() = 129 <--> avgDataResult = 129] --> Correct
+
+outputcollect.h --> AVG = 204 [index = 186] | checker.h [avg.read() = 204 <--> avgDataResult = 204] --> Correct
+
+outputcollect.h --> AVG = 126 [index = 187] | checker.h [avg.read() = 126 <--> avgDataResult = 126] --> Correct
+
+outputcollect.h --> AVG = 93 [index = 188] | checker.h [avg.read() = 93 <--> avgDataResult = 93] --> Correct
+
+outputcollect.h --> AVG = 112 [index = 189] | checker.h [avg.read() = 112 <--> avgDataResult = 112] --> Correct
+
+outputcollect.h --> AVG = 94 [index = 190] | checker.h [avg.read() = 94 <--> avgDataResult = 94] --> Correct
+
+outputcollect.h --> AVG = 158 [index = 191] | checker.h [avg.read() = 158 <--> avgDataResult = 158] --> Correct
+
+outputcollect.h --> AVG = 101 [index = 192] | checker.h [avg.read() = 101 <--> avgDataResult = 101] --> Correct
+
+outputcollect.h --> AVG = 41 [index = 193] | checker.h [avg.read() = 41 <--> avgDataResult = 41] --> Correct
+
+outputcollect.h --> AVG = 159 [index = 194] | checker.h [avg.read() = 159 <--> avgDataResult = 159] --> Correct
+
+outputcollect.h --> AVG = 64 [index = 195] | checker.h [avg.read() = 64 <--> avgDataResult = 64] --> Correct
+
+outputcollect.h --> AVG = 122 [index = 196] | checker.h [avg.read() = 122 <--> avgDataResult = 122] --> Correct
+
+outputcollect.h --> AVG = 189 [index = 197] | checker.h [avg.read() = 189 <--> avgDataResult = 189] --> Correct
+
+outputcollect.h --> AVG = 123 [index = 198] | checker.h [avg.read() = 123 <--> avgDataResult = 123] --> Correct
+
+outputcollect.h --> AVG = 62 [index = 199] | checker.h [avg.read() = 62 <--> avgDataResult = 62] --> Correct
+
+outputcollect.h --> AVG = 76 [index = 200] | checker.h [avg.read() = 76 <--> avgDataResult = 76] --> Correct
+
+outputcollect.h --> AVG = 99 [index = 201] | checker.h [avg.read() = 99 <--> avgDataResult = 99] --> Correct
+
+outputcollect.h --> AVG = 52 [index = 202] | checker.h [avg.read() = 52 <--> avgDataResult = 52] --> Correct
+
+outputcollect.h --> AVG = 95 [index = 203] | checker.h [avg.read() = 95 <--> avgDataResult = 95] --> Correct
+
+outputcollect.h --> AVG = 124 [index = 204] | checker.h [avg.read() = 124 <--> avgDataResult = 124] --> Correct
+
+outputcollect.h --> AVG = 139 [index = 205] | checker.h [avg.read() = 139 <--> avgDataResult = 139] --> Correct
+
+outputcollect.h --> AVG = 133 [index = 206] | checker.h [avg.read() = 133 <--> avgDataResult = 133] --> Correct
+
+outputcollect.h --> AVG = 179 [index = 207] | checker.h [avg.read() = 179 <--> avgDataResult = 179] --> Correct
+
+outputcollect.h --> AVG = 130 [index = 208] | checker.h [avg.read() = 130 <--> avgDataResult = 130] --> Correct
+
+outputcollect.h --> AVG = 198 [index = 209] | checker.h [avg.read() = 198 <--> avgDataResult = 198] --> Correct
+
+outputcollect.h --> AVG = 155 [index = 210] | checker.h [avg.read() = 155 <--> avgDataResult = 155] --> Correct
+
+outputcollect.h --> AVG = 76 [index = 211] | checker.h [avg.read() = 76 <--> avgDataResult = 76] --> Correct
+
+outputcollect.h --> AVG = 205 [index = 212] | checker.h [avg.read() = 205 <--> avgDataResult = 205] --> Correct
+
+outputcollect.h --> AVG = 82 [index = 213] | checker.h [avg.read() = 82 <--> avgDataResult = 82] --> Correct
+
+outputcollect.h --> AVG = 58 [index = 214] | checker.h [avg.read() = 58 <--> avgDataResult = 58] --> Correct
+
+outputcollect.h --> AVG = 123 [index = 215] | checker.h [avg.read() = 123 <--> avgDataResult = 123] --> Correct
+
+outputcollect.h --> AVG = 122 [index = 216] | checker.h [avg.read() = 122 <--> avgDataResult = 122] --> Correct
+
+outputcollect.h --> AVG = 73 [index = 217] | checker.h [avg.read() = 73 <--> avgDataResult = 73] --> Correct
+
+outputcollect.h --> AVG = 86 [index = 218] | checker.h [avg.read() = 86 <--> avgDataResult = 86] --> Correct
+
+outputcollect.h --> AVG = 173 [index = 219] | checker.h [avg.read() = 173 <--> avgDataResult = 173] --> Correct
+
+outputcollect.h --> AVG = 143 [index = 220] | checker.h [avg.read() = 143 <--> avgDataResult = 143] --> Correct
+
+outputcollect.h --> AVG = 73 [index = 221] | checker.h [avg.read() = 73 <--> avgDataResult = 73] --> Correct
+
+outputcollect.h --> AVG = 119 [index = 222] | checker.h [avg.read() = 119 <--> avgDataResult = 119] --> Correct
+
+outputcollect.h --> AVG = 155 [index = 223] | checker.h [avg.read() = 155 <--> avgDataResult = 155] --> Correct
+
+outputcollect.h --> AVG = 68 [index = 224] | checker.h [avg.read() = 68 <--> avgDataResult = 68] --> Correct
+
+outputcollect.h --> AVG = 162 [index = 225] | checker.h [avg.read() = 162 <--> avgDataResult = 162] --> Correct
+
+outputcollect.h --> AVG = 125 [index = 226] | checker.h [avg.read() = 125 <--> avgDataResult = 125] --> Correct
+
+outputcollect.h --> AVG = 136 [index = 227] | checker.h [avg.read() = 136 <--> avgDataResult = 136] --> Correct
+
+outputcollect.h --> AVG = 120 [index = 228] | checker.h [avg.read() = 120 <--> avgDataResult = 120] --> Correct
+
+outputcollect.h --> AVG = 114 [index = 229] | checker.h [avg.read() = 114 <--> avgDataResult = 114] --> Correct
+
+outputcollect.h --> AVG = 137 [index = 230] | checker.h [avg.read() = 137 <--> avgDataResult = 137] --> Correct
+
+outputcollect.h --> AVG = 151 [index = 231] | checker.h [avg.read() = 151 <--> avgDataResult = 151] --> Correct
+
+outputcollect.h --> AVG = 165 [index = 232] | checker.h [avg.read() = 165 <--> avgDataResult = 165] --> Correct
+
+outputcollect.h --> AVG = 100 [index = 233] | checker.h [avg.read() = 100 <--> avgDataResult = 100] --> Correct
+
+outputcollect.h --> AVG = 178 [index = 234] | checker.h [avg.read() = 178 <--> avgDataResult = 178] --> Correct
+
+outputcollect.h --> AVG = 101 [index = 235] | checker.h [avg.read() = 101 <--> avgDataResult = 101] --> Correct
+
+outputcollect.h --> AVG = 112 [index = 236] | checker.h [avg.read() = 112 <--> avgDataResult = 112] --> Correct
+
+outputcollect.h --> AVG = 65 [index = 237] | checker.h [avg.read() = 65 <--> avgDataResult = 65] --> Correct
+
+outputcollect.h --> AVG = 158 [index = 238] | checker.h [avg.read() = 158 <--> avgDataResult = 158] --> Correct
+
+outputcollect.h --> AVG = 59 [index = 239] | checker.h [avg.read() = 59 <--> avgDataResult = 59] --> Correct
+
+outputcollect.h --> AVG = 190 [index = 240] | checker.h [avg.read() = 190 <--> avgDataResult = 190] --> Correct
+
+outputcollect.h --> AVG = 157 [index = 241] | checker.h [avg.read() = 157 <--> avgDataResult = 157] --> Correct
+
+outputcollect.h --> AVG = 134 [index = 242] | checker.h [avg.read() = 134 <--> avgDataResult = 134] --> Correct
+
+outputcollect.h --> AVG = 70 [index = 243] | checker.h [avg.read() = 70 <--> avgDataResult = 70] --> Correct
+
+outputcollect.h --> AVG = 174 [index = 244] | checker.h [avg.read() = 174 <--> avgDataResult = 174] --> Correct
+
+outputcollect.h --> AVG = 84 [index = 245] | checker.h [avg.read() = 84 <--> avgDataResult = 84] --> Correct
+
+outputcollect.h --> AVG = 148 [index = 246] | checker.h [avg.read() = 148 <--> avgDataResult = 148] --> Correct
+
+outputcollect.h --> AVG = 85 [index = 247] | checker.h [avg.read() = 85 <--> avgDataResult = 85] --> Correct
+
+outputcollect.h --> AVG = 123 [index = 248] | checker.h [avg.read() = 123 <--> avgDataResult = 123] --> Correct
+
+outputcollect.h --> AVG = 129 [index = 249] | checker.h [avg.read() = 129 <--> avgDataResult = 129] --> Correct
+
+outputcollect.h --> AVG = 78 [index = 250] | checker.h [avg.read() = 78 <--> avgDataResult = 78] --> Correct
+
+outputcollect.h --> AVG = 150 [index = 251] | checker.h [avg.read() = 150 <--> avgDataResult = 150] --> Correct
+
+outputcollect.h --> AVG = 108 [index = 252] | checker.h [avg.read() = 108 <--> avgDataResult = 108] --> Correct
+
+outputcollect.h --> AVG = 143 [index = 253] | checker.h [avg.read() = 143 <--> avgDataResult = 143] --> Correct
+
+outputcollect.h --> AVG = 152 [index = 254] | checker.h [avg.read() = 152 <--> avgDataResult = 152] --> Correct
+
+outputcollect.h --> AVG = 90 [index = 255] | checker.h [avg.read() = 90 <--> avgDataResult = 90] --> Correct
+=================================================================================================================================
+Correct Result = 256
+In Correct Result = 0
+
+Info: /OSCI/SystemC: Simulation stopped by user.
