@@ -40,6 +40,8 @@ void *operation(void *port) {
       exit(1);
    }
 
+   printf("server is spawn for port %d\n", portno);
+
    /* Now start listening for the clients, here
       * process will go in sleep mode and will wait
       * for the incoming connection
@@ -78,6 +80,10 @@ void *operation(void *port) {
 }
 
 int main(int argc, char *argv[]) {
+	if(argc < 4) {
+		printf("You forget port No.\n");
+		exit(0);
+	}
 	pthread_t thread[NUM];
 	int port[NUM];
 	int i;
@@ -102,8 +108,9 @@ void doprocessing (int sock) {
       exit(1);
    }
 
-   printf("Here is the message: %s\n",buffer);
-   n = write(sock,"I got your message",18);
+   printf("recieve %s\n",buffer);
+   //n = write(sock,"I got your message",18);
+   n = write(sock,"",18);
 
    if (n < 0) {
       perror("ERROR writing to socket");
