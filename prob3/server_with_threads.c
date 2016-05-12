@@ -113,11 +113,11 @@ int doprocessing (int sock) {
       exit(1);
    }
 
-   printf("recieve %s\n",buffer);
+   printf("recieve %s",buffer);
    //n = write(sock,"I got your message",18);
    n = write(sock,"",18);
    if (!strcmp(buffer, "end\n")) {
-	   printf("end\n");
+	   printf("exiting\n");
 	   return 1;
    }
 
