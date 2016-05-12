@@ -63,7 +63,7 @@ int main(int argc, char *argv[]) {
 
 	   close(sockfd);
 	   if (!strcmp(buffer, "end\n")) {
-		   printf("end exit\n");
+//		   printf("end exit\n");
 		   break;
 	   }
 	   /* Now read server response */
