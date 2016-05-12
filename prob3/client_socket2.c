@@ -61,8 +61,14 @@ int main(int argc, char *argv[]) {
 		  exit(1);
 	   }
 
+	   close(sockfd);
+	   if (!strcmp(buffer, "end\n")) {
+		   printf("end exit\n");
+		   break;
+	   }
 	   /* Now read server response */
 	   bzero(buffer,256);
+	   /*
 	   n = read(sockfd, buffer, 255);
 
 	   if (n < 0) {
@@ -70,8 +76,14 @@ int main(int argc, char *argv[]) {
 		  exit(1);
 	   }
 
-	   //printf("%s\n",buffer);
+	   printf("buffer --> %s\n",buffer);
+	   close(sockfd);
+	   if (!strcmp(buffer, "end\n")) {
+		   printf("end exit\n");
+		   break;
+	   }
+	   */
    }
-   close(sockfd);
+   //close(sockfd);
    return 0;
 }

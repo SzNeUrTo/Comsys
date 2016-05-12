@@ -8,7 +8,7 @@
 
 #define NUM 3
 
-void doprocessing (int sock);
+int doprocessing (int sock);
 
 void *operation(void *port) {
    int sockfd, newsockfd, portno, clilen;
@@ -68,8 +68,12 @@ void *operation(void *port) {
 
       if (pid == 0) {
          /* This is the client process */
+		 /*
          close(sockfd);
          doprocessing(newsockfd);
+		 */
+         int stop = doprocessing(newsockfd);
+		 if (stop) break;
          exit(0);
       }
       else {
@@ -77,6 +81,7 @@ void *operation(void *port) {
       }
 
    } /* end of while */
+   close(sockfd);
 }
 
 int main(int argc, char *argv[]) {
@@ -97,7 +102,7 @@ int main(int argc, char *argv[]) {
 	return 0;
 }
 
-void doprocessing (int sock) {
+int doprocessing (int sock) {
    int n;
    char buffer[256];
    bzero(buffer,256);
@@ -111,10 +116,15 @@ void doprocessing (int sock) {
    printf("recieve %s\n",buffer);
    //n = write(sock,"I got your message",18);
    n = write(sock,"",18);
+   if (!strcmp(buffer, "end\n")) {
+	   printf("end\n");
+	   return 1;
+   }
 
    if (n < 0) {
       perror("ERROR writing to socket");
       exit(1);
    }
+   return 0;
 
 }
