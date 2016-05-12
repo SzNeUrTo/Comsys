@@ -2,7 +2,6 @@
 #include <stdlib.h>
 #include <signal.h>
 #include <string.h>
-#include <time.h>
 
 void printLine(int level) {
 	int i;
