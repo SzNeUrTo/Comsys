@@ -1,10 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
-
 #include <netdb.h>
 #include <netinet/in.h>
-
 #include <string.h>
+#include <unistd.h>
 
 int main(int argc, char *argv[]) {
    int sockfd, portno, n;
@@ -13,7 +12,7 @@ int main(int argc, char *argv[]) {
 
    char buffer[256];
 
-   if (argc < 3) {
+   if (argc < 2) {
       //fprintf(stderr,"usage %s hostname port\n", argv[0]);
       fprintf(stderr,"usage %s port message\n", argv[0]);
       exit(0);
@@ -47,33 +46,36 @@ int main(int argc, char *argv[]) {
       exit(1);
    }
 
+   while(1) {
    /* Now ask for a message from the user, this message
       * will be read by server
    */
+   //while(strcmp(buffer, "end")) {
+	   //printf("Please enter the message: ");
+	   bzero(buffer,256);
+	   fgets(buffer,255,stdin);
+	   //strcpy(buffer, argv[2]);
+	   //printf("send: %s\n", buffer);
 
-   //printf("Please enter the message: ");
-   bzero(buffer,256);
-   //fgets(buffer,255,stdin);
-   strcpy(buffer, argv[2]);
-   printf("send: %s\n", buffer);
+	   /* Send message to the server */
+	   n = write(sockfd, buffer, strlen(buffer));
 
-   /* Send message to the server */
-   n = write(sockfd, buffer, strlen(buffer));
+	   if (n < 0) {
+		  perror("ERROR writing to socket");
+		  exit(1);
+	   }
 
-   if (n < 0) {
-      perror("ERROR writing to socket");
-      exit(1);
+	   /* Now read server response */
+	   bzero(buffer,256);
+	   n = read(sockfd, buffer, 255);
+
+	   if (n < 0) {
+		  perror("ERROR reading from socket");
+		  exit(1);
+	   }
+
+	   printf("%s\n",buffer);
+	   close(sockfd);
    }
-
-   /* Now read server response */
-   bzero(buffer,256);
-   n = read(sockfd, buffer, 255);
-
-   if (n < 0) {
-      perror("ERROR reading from socket");
-      exit(1);
-   }
-
-   printf("%s\n",buffer);
    return 0;
 }
