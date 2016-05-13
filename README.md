@@ -1,5 +1,30 @@
 # Comsys
-
+Laboratories related to computer organization and architecture, microprocessor, etc.
+- Organization
+	- ALU components
+		- Adder / Substractor
+		- Multiplier
+		- Floating Point Representation
+		- Simple ALU
+	- Control
+		- FSM
+		- ROM / Array
+- Branch
+	- Address Profiling
+	- Branch Prediction
+- Memory
+	- Cache Simulation
+		- Address Profiling
+		- Replacement Policy
+		- Associativity
+- Architecture
+	- Profiling
+	- Performance Metric
+		- CPI
+		- Execution Time
+		- Instruction Count
+		- Memory Access
+		- Insctruction Mix
 
 Lab
 ===
