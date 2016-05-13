@@ -35,7 +35,7 @@ Lab
 2. [Getting to know SystemC](https://github.com/SzNeUrTo/Comsys/tree/master/lab02/multifiles)
 3. [Simple logic gates and combinational logic](https://github.com/SzNeUrTo/Comsys/tree/master/lab03/logic-gates)
 4. [Adder Subtractor](https://github.com/SzNeUrTo/Comsys/tree/master/lab04/fulladder)
-5. [Simple ALU](https://github.com/SzNeUrTo/Comsys/tree/master/lab05/multiplier)
+5. [Multiplier](https://github.com/SzNeUrTo/Comsys/tree/master/lab05/multiplier)
 6. [Division](https://github.com/SzNeUrTo/Comsys/tree/master/lab06/divider)
 7. [Registers](https://github.com/SzNeUrTo/Comsys/tree/master/lab07/registers)
 8. [Data Path with Registers](https://github.com/SzNeUrTo/Comsys/tree/master/lab08/datapath)
