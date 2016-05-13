@@ -20,8 +20,6 @@ int main(int argc, char *argv[]) {
 
    portno = atoi(argv[1]);
 
-   while(1) {
-	   /* Create a socket point */
 	   sockfd = socket(AF_INET, SOCK_STREAM, 0);
 
 	   if (sockfd < 0) {
@@ -46,6 +44,8 @@ int main(int argc, char *argv[]) {
 		  perror("ERROR connecting");
 		  exit(1);
 	   }
+   while(1) {
+	   /* Create a socket point */
 
    /* Now ask for a message from the user, this message
       * will be read by server
@@ -61,13 +61,13 @@ int main(int argc, char *argv[]) {
 		  exit(1);
 	   }
 
-	   close(sockfd);
+	   //close(sockfd);
 	   if (!strcmp(buffer, "end\n")) {
 //		   printf("end exit\n");
 		   break;
 	   }
 	   /* Now read server response */
-	   bzero(buffer,256);
+	   //bzero(buffer,256);
 	   /*
 	   n = read(sockfd, buffer, 255);
 
@@ -84,6 +84,6 @@ int main(int argc, char *argv[]) {
 	   }
 	   */
    }
-   //close(sockfd);
+   close(sockfd);
    return 0;
 }

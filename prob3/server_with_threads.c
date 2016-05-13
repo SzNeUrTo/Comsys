@@ -30,9 +30,11 @@ void *operation(void *port) {
    portno = *((int *) port);
    //printf("portno = %d\n", *((int *) port));
 
+   //serv_addr.sin_family = AF_INET;
    serv_addr.sin_family = AF_INET;
    serv_addr.sin_addr.s_addr = INADDR_ANY;
    serv_addr.sin_port = htons(portno);
+   unlink(INADDR_ANY);
 
    /* Now bind the host address using bind() call.*/
    if (bind(sockfd, (struct sockaddr *) &serv_addr, sizeof(serv_addr)) < 0) {
@@ -50,36 +52,14 @@ void *operation(void *port) {
    listen(sockfd,5);
    clilen = sizeof(cli_addr);
 
-   while (1) {
       newsockfd = accept(sockfd, (struct sockaddr *) &cli_addr, &clilen);
 
-      if (newsockfd < 0) {
-         perror("ERROR on accept");
-         exit(1);
-      }
-
-      /* Create child process */
-      pid = fork();
-
-      if (pid < 0) {
-         perror("ERROR on fork");
-         exit(1);
-      }
-
-      if (pid == 0) {
-         /* This is the client process */
-		 /*
-         close(sockfd);
-         doprocessing(newsockfd);
-		 */
+	  printf("cli_addr = %ld\n", cli_addr);
+   struct sockaddr *id = 0;
+   while (1) {
          int stop = doprocessing(newsockfd);
 		 if (stop) break;
-         exit(0);
-      }
-      else {
-         close(newsockfd);
-      }
-
+         //exit(0);
    } /* end of while */
    close(sockfd);
 }
