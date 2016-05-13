@@ -1,6 +1,6 @@
 # Comsys
 Laboratories related to computer organization and architecture, microprocessor, etc.
-
+[https://sites.google.com/a/ku.th/01219215/home](https://sites.google.com/a/ku.th/01219215/home)
 Outline
 -------
 - __Organization__
