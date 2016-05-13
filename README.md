@@ -1,6 +1,9 @@
 # Comsys
 Laboratories related to computer organization and architecture, microprocessor, etc.
-- Organization
+
+Outline
+-------
+- __Organization__
 	- ALU components
 		- Adder / Substractor
 		- Multiplier
@@ -9,15 +12,15 @@ Laboratories related to computer organization and architecture, microprocessor, 
 	- Control
 		- FSM
 		- ROM / Array
-- Branch
+- __Branch__
 	- Address Profiling
 	- Branch Prediction
-- Memory
+- __Memory__
 	- Cache Simulation
 		- Address Profiling
 		- Replacement Policy
 		- Associativity
-- Architecture
+- __Architecture__
 	- Profiling
 	- Performance Metric
 		- CPI
@@ -27,7 +30,7 @@ Laboratories related to computer organization and architecture, microprocessor, 
 		- Insctruction Mix
 
 Lab
-===
+---
 1. [SystemC Installation](https://github.com/SzNeUrTo/Comsys/tree/master/lab01/prepare)
 2. [Getting to know SystemC](https://github.com/SzNeUrTo/Comsys/tree/master/lab02/multifiles)
 3. [Simple logic gates and combinational logic](https://github.com/SzNeUrTo/Comsys/tree/master/lab03/logic-gates)
@@ -42,6 +45,6 @@ Lab
 12. [InterProcess Communcation and inode](https://github.com/SzNeUrTo/Comsys/tree/master/lab12)
 
 Quiz
-====
+----
 Scope about SystemC
 - [Midterm](https://github.com/SzNeUrTo/Comsys/tree/master/quiz)
