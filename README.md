@@ -15,3 +15,8 @@ Lab
 10. [Writing your own cache simulation](https://github.com/SzNeUrTo/Comsys/tree/master/lab10)
 11. [Thread Programming and Synchronization with POSIX](https://github.com/SzNeUrTo/Comsys/tree/master/lab11)
 12. [InterProcess Communcation and inode](https://github.com/SzNeUrTo/Comsys/tree/master/lab12)
+
+Quiz
+====
+Scope about SystemC
+- [Midterm](https://github.com/SzNeUrTo/Comsys/tree/master/quiz)
