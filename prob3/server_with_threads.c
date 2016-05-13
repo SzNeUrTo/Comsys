@@ -26,11 +26,8 @@ void *operation(void *port) {
 
    /* Initialize socket structure */
    bzero((char *) &serv_addr, sizeof(serv_addr));
-   //portno = 5001;
    portno = *((int *) port);
-   //printf("portno = %d\n", *((int *) port));
 
-   //serv_addr.sin_family = AF_INET;
    serv_addr.sin_family = AF_INET;
    serv_addr.sin_addr.s_addr = INADDR_ANY;
    serv_addr.sin_port = htons(portno);
@@ -42,7 +39,6 @@ void *operation(void *port) {
       exit(1);
    }
 
-   printf("server is spawn for port %d\n", portno);
 
    /* Now start listening for the clients, here
       * process will go in sleep mode and will wait
@@ -51,15 +47,13 @@ void *operation(void *port) {
 
    listen(sockfd,5);
    clilen = sizeof(cli_addr);
+   newsockfd = accept(sockfd, (struct sockaddr *) &cli_addr, &clilen);
+   printf("server is spawn for port %d\n", portno);
 
-      newsockfd = accept(sockfd, (struct sockaddr *) &cli_addr, &clilen);
-
-	  printf("cli_addr = %ld\n", cli_addr);
    struct sockaddr *id = 0;
    while (1) {
          int stop = doprocessing(newsockfd);
 		 if (stop) break;
-         //exit(0);
    } /* end of while */
    close(sockfd);
 }
@@ -94,7 +88,6 @@ int doprocessing (int sock) {
    }
 
    printf("recieve %s",buffer);
-   //n = write(sock,"I got your message",18);
    n = write(sock,"",18);
    if (!strcmp(buffer, "end\n")) {
 	   printf("exiting\n");
